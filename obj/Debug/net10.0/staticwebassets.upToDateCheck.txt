@@ -1,8 +1,10 @@
 wwwroot\css\Home.css
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\LOGO.png
 wwwroot\images\LOGOS.png
 wwwroot\images\profile.jpg
+wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -63,10 +65,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
-wwwroot\js\site.js
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\css\Home.css
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\favicon.ico
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\js\site.js
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\css\site.css
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -126,5 +127,4 @@ C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\jquery\dist\jquery.slim.
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\css\site.css
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\js\site.js
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\wwwroot\favicon.ico

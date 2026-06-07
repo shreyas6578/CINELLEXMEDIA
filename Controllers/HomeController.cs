@@ -27,6 +27,17 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult Userform1()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Userform(String Name ,String Email , String Message)
+        {
+            TempData["Success"] = "Thank you for contacting us!";
+            return  RedirectToAction("Index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
