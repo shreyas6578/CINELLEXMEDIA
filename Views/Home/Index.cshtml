@@ -1,9 +1,498 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<link rel="stylesheet" href="~/css/Home.css" />
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>This is the home page.</p>
-</div>
+<!-- ═══════════════════════════════════════════
+     HERO SECTION
+═══════════════════════════════════════════ -->
+<section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative z-1">
+        <div class="row min-vh-hero align-items-center">
+            <div class="col-lg-8">
+                <span class="hero-pill">Sports Creative Agency</span>
+                <h1 class="hero-title mt-3">
+                    Crafted<br />for <span class="hero-accent">Growth.</span>
+                </h1>
+                <p class="hero-sub mt-4">
+                    Helping clubs, academies, athletes, and sports brands<br class="d-none d-lg-block" />
+                    build a strong and recognizable digital presence.
+                </p>
+                <div class="mt-5 d-flex gap-3 flex-wrap">
+                    <a href="#about" class="btn btn-cta btn-lg-cta">Discover More</a>
+                    <a href="#pricing" class="btn btn-ghost-cta btn-lg-cta">View Packages</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <a href="#about" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </div>
+
+    <!-- Decorative ticker -->
+    <div class="hero-ticker">
+        <div class="ticker-track">
+            <span>Social Media Management</span><span class="ticker-dot">✦</span>
+            <span>Reels & Creative Design</span><span class="ticker-dot">✦</span>
+            <span>Matchday Content</span><span class="ticker-dot">✦</span>
+            <span>Sports Branding</span><span class="ticker-dot">✦</span>
+            <span>Photography & Shoots</span><span class="ticker-dot">✦</span>
+            <span>Performance Marketing</span><span class="ticker-dot">✦</span>
+            <span>Social Media Management</span><span class="ticker-dot">✦</span>
+            <span>Reels & Creative Design</span><span class="ticker-dot">✦</span>
+            <span>Matchday Content</span><span class="ticker-dot">✦</span>
+            <span>Sports Branding</span><span class="ticker-dot">✦</span>
+            <span>Photography & Shoots</span><span class="ticker-dot">✦</span>
+            <span>Performance Marketing</span><span class="ticker-dot">✦</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     ABOUT SECTION
+═══════════════════════════════════════════ -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+                <div class="about-media-box">
+                    <div class="about-badge-float">Sports-Focused Agency</div>
+                    <!-- Replace with actual image: <img src="~/images/about.jpg" class="about-img" alt="About Cinellex Media" /> -->
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-futbol fa-4x"></i>
+                        <p class="mt-3">Your brand image here</p>
+                    </div>
+                    <div class="about-stat-float">
+                        <span class="stat-big">2026</span>
+                        <span class="stat-small">Established</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <span class="section-eyebrow">About Us</span>
+                <h2 class="section-heading mt-2">
+                    We don't just manage pages.<br />
+                    We build <span class="text-accent">digital identity.</span>
+                </h2>
+                <p class="section-body mt-4">
+                    Founded by <strong>Uttkarsh Chavan</strong> and co-founded by <strong>Sunny Nikhade</strong>,
+                    Cinellex Media is a sports-focused creative agency helping clubs, academies, athletes, and
+                    sports brands build a strong digital presence.
+                </p>
+                <p class="section-body mt-3">
+                    Combining sports management expertise with visual storytelling, we create authentic and
+                    impactful content through social media management, creative design, reels, matchday
+                    coverage, photography, and branding.
+                </p>
+                <div class="about-highlights mt-4">
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Sports management expertise</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Authentic visual storytelling</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Community-first approach</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Trend-driven content strategy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SERVICES SECTION
+═══════════════════════════════════════════ -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">What We Do</span>
+            <h2 class="section-heading mt-2">Our Services</h2>
+            <p class="section-sub">Everything your sports brand needs to dominate online.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-mobile-alt"></i></div>
+                    <h5 class="service-title">Social Media Management</h5>
+                    <p class="service-desc">Full management of your club or athlete's social pages with consistent, engaging content.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-lightbulb"></i></div>
+                    <h5 class="service-title">Content Strategy</h5>
+                    <p class="service-desc">Data-driven content calendars and engagement strategies tailored to your audience.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card service-card-featured">
+                    <div class="service-icon-wrap"><i class="fas fa-film"></i></div>
+                    <h5 class="service-title">Reels & Creative Design</h5>
+                    <p class="service-desc">High-impact reels, carousels, and graphics crafted to stop the scroll and drive reach.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-futbol"></i></div>
+                    <h5 class="service-title">Matchday Content</h5>
+                    <p class="service-desc">Live matchday graphics, post-match recaps, and real-time social coverage.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-camera"></i></div>
+                    <h5 class="service-title">Photography & Shoots</h5>
+                    <p class="service-desc">Professional sports photography and creative shoots for clubs, athletes, and brands.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-icon-wrap"><i class="fas fa-bullseye"></i></div>
+                    <h5 class="service-title">Performance Marketing</h5>
+                    <p class="service-desc">Paid campaigns and growth strategies to expand reach and attract new audiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     WHY BRANDS WORK WITH US
+═══════════════════════════════════════════ -->
+<section id="why" class="why-section">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <span class="section-eyebrow">Why Brands Work With Us</span>
+                <h2 class="section-heading mt-2">
+                    We understand sports<br />beyond just <span class="text-accent">content.</span>
+                </h2>
+                <p class="section-body mt-4">
+                    At Cinellex Media, we understand sports beyond just content — the emotion, culture, energy, and
+                    community behind every club, athlete, and brand.
+                </p>
+                <p class="section-body mt-3">
+                    With a sports-focused creative approach, we blend trend-driven content, storytelling, and modern
+                    visuals to build strong digital identities that connect with audiences and grow communities.
+                </p>
+                <blockquote class="brand-quote mt-4">
+                    "We don't just post content. We build digital identity."
+                </blockquote>
+            </div>
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="why-card">
+                            <i class="fas fa-trophy why-icon"></i>
+                            <h6>Sports Expertise</h6>
+                            <p>Grassroots to professional sports branding</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="why-card why-card-accent">
+                            <i class="fas fa-fire why-icon"></i>
+                            <h6>Trend-Driven</h6>
+                            <p>Always on top of the latest content trends</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="why-card why-card-accent">
+                            <i class="fas fa-users why-icon"></i>
+                            <h6>Community First</h6>
+                            <p>Content that feels authentic and engaging</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="why-card">
+                            <i class="fas fa-chart-line why-icon"></i>
+                            <h6>Results Focused</h6>
+                            <p>Increased reach, engagement, and brand identity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CLIENTS SECTION
+═══════════════════════════════════════════ -->
+<section id="clients" class="clients-section">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">Our Clients</span>
+            <h2 class="section-heading mt-2">Clubs We've Worked With</h2>
+        </div>
+
+        <div class="row g-4">
+            <!-- Client 1: Mega Sports -->
+            <div class="col-lg-6">
+                <div class="client-card">
+                    <div class="client-card-header">
+                        <div class="client-logo-box">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="client-name">Mega Sports</h4>
+                            <span class="client-tag">Football · U4 to U18</span>
+                        </div>
+                    </div>
+                    <p class="client-desc mt-3">
+                        A football club focused on nurturing young footballers and building strong grassroots
+                        development from an early age. Works across multiple youth categories, helping players
+                        grow through professional training, discipline, and competitive exposure.
+                    </p>
+                    <div class="client-challenges mt-3">
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>Low engagement</span>
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>Weak brand identity</span>
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>Limited reach</span>
+                    </div>
+                    <div class="client-results mt-3">
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>Higher Reel views</span>
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>Stronger brand identity</span>
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>Better engagement</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client 2: Thapa FC -->
+            <div class="col-lg-6">
+                <div class="client-card">
+                    <div class="client-card-header">
+                        <div class="client-logo-box">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="client-name">Thapa FC</h4>
+                            <span class="client-tag">Football · U4 to U18</span>
+                        </div>
+                    </div>
+                    <p class="client-desc mt-3">
+                        A grassroots football club focused on developing young talent from U4 to U18 through
+                        structured training and competitive exposure. Actively participates in TYL, MFA, and
+                        various football leagues, helping players gain valuable match experience.
+                    </p>
+                    <div class="client-challenges mt-3">
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>Inconsistent posting</span>
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>No professional visuals</span>
+                        <span class="challenge-tag"><i class="fas fa-times-circle me-1"></i>Limited community reach</span>
+                    </div>
+                    <div class="client-results mt-3">
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>Increased profile visits</span>
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>Professional presence</span>
+                        <span class="result-tag"><i class="fas fa-check-circle me-1"></i>More visibility</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategy + Results banner -->
+        <div class="strategy-banner mt-5">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h5 class="banner-heading"><i class="fas fa-chess me-2"></i>Our Strategy</h5>
+                    <ul class="banner-list">
+                        <li>Reels-focused content strategy</li>
+                        <li>Professional matchday creatives</li>
+                        <li>Consistent posting and story management</li>
+                        <li>Strong visual branding and engagement approach</li>
+                        <li>Community-focused football content</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 border-start-lg">
+                    <h5 class="banner-heading"><i class="fas fa-chart-bar me-2"></i>Results & Impact</h5>
+                    <ul class="banner-list">
+                        <li>Increased reach and engagement</li>
+                        <li>Higher Reel views and profile visits</li>
+                        <li>Stronger digital brand identity</li>
+                        <li>More professional online presence</li>
+                        <li>Better audience interaction and visibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     OUR PROCESS
+═══════════════════════════════════════════ -->
+<section id="process" class="process-section">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">How We Work</span>
+            <h2 class="section-heading mt-2">Our Process</h2>
+            <p class="section-sub">A streamlined approach designed to build strong sports brands.</p>
+        </div>
+
+        <div class="process-track">
+            <div class="process-step">
+                <div class="process-num">01</div>
+                <div class="process-content">
+                    <h5>Understand</h5>
+                    <p>Understanding the brand, audience, and goals.</p>
+                </div>
+            </div>
+            <div class="process-connector"></div>
+            <div class="process-step">
+                <div class="process-num">02</div>
+                <div class="process-content">
+                    <h5>Strategize</h5>
+                    <p>Planning content, visuals, and engagement.</p>
+                </div>
+            </div>
+            <div class="process-connector"></div>
+            <div class="process-step">
+                <div class="process-num">03</div>
+                <div class="process-content">
+                    <h5>Create</h5>
+                    <p>Producing reels, graphics, and matchday content.</p>
+                </div>
+            </div>
+            <div class="process-connector"></div>
+            <div class="process-step">
+                <div class="process-num">04</div>
+                <div class="process-content">
+                    <h5>Publish</h5>
+                    <p>Consistent posting and account management.</p>
+                </div>
+            </div>
+            <div class="process-connector"></div>
+            <div class="process-step">
+                <div class="process-num">05</div>
+                <div class="process-content">
+                    <h5>Optimize</h5>
+                    <p>Analyzing performance and improving growth.</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="process-mission text-center mt-5">
+            <i class="fas fa-bullseye me-2"></i>
+            "To turn sports pages into recognizable digital brands."
+        </p>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PRICING SECTION
+═══════════════════════════════════════════ -->
+<section id="pricing" class="pricing-section">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">Your Investment</span>
+            <h2 class="section-heading mt-2">Choose Your Package</h2>
+            <p class="section-sub">Transparent pricing. No hidden costs. Real results.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- Starter -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card">
+                    <div class="pricing-tier">Starter Package</div>
+                    <p class="pricing-tagline">Get online. Be Professional.</p>
+                    <div class="pricing-price">₹14,999<span>/mo</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Social media management</li>
+                        <li><i class="fas fa-check"></i> 12 posts/month</li>
+                        <li><i class="fas fa-check"></i> Custom creatives, reels & carousels</li>
+                        <li><i class="fas fa-check"></i> Turnaround: 24 hrs</li>
+                        <li><i class="fas fa-check"></i> Dedicated Media Executive</li>
+                        <li><i class="fas fa-check"></i> Monthly performance report</li>
+                        <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
+                    </ul>
+                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Starter Package Enquiry" class="btn btn-pricing-outline mt-auto">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Growth (Featured) -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card pricing-card-featured">
+                    <div class="pricing-popular-badge">Most Popular</div>
+                    <div class="pricing-tier">Growth Package</div>
+                    <p class="pricing-tagline">Build your brand. Grow your audience.</p>
+                    <div class="pricing-price">₹19,999<span>/mo</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Social media management</li>
+                        <li><i class="fas fa-check"></i> 20 posts/month</li>
+                        <li><i class="fas fa-check"></i> Custom creatives, reels & carousels</li>
+                        <li><i class="fas fa-check"></i> Turnaround: 12 hrs</li>
+                        <li><i class="fas fa-check"></i> Dedicated Media Executive</li>
+                        <li><i class="fas fa-check"></i> Monthly performance report</li>
+                        <li><i class="fas fa-check"></i> Content calendar for structured posting</li>
+                        <li><i class="fas fa-check"></i> Trend & engagement strategy planning</li>
+                        <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
+                    </ul>
+                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Growth Package Enquiry" class="btn btn-pricing-filled mt-auto">Get Started</a>
+                </div>
+            </div>
+
+            <!-- Elite -->
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card">
+                    <div class="pricing-tier">Elite Package</div>
+                    <p class="pricing-tagline">Full-scale sports brand domination.</p>
+                    <div class="pricing-price">₹29,999<span>/mo</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Social media management</li>
+                        <li><i class="fas fa-check"></i> Daily posting</li>
+                        <li><i class="fas fa-check"></i> Custom creatives, reels & carousels</li>
+                        <li><i class="fas fa-check"></i> Turnaround: 7 hrs</li>
+                        <li><i class="fas fa-check"></i> Dedicated Media Manager</li>
+                        <li><i class="fas fa-check"></i> Engagement-focused story campaigns</li>
+                        <li><i class="fas fa-check"></i> Growth & engagement strategy</li>
+                        <li><i class="fas fa-check"></i> Monthly performance report</li>
+                        <li><i class="fas fa-check"></i> Content calendar for structured posting</li>
+                        <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
+                    </ul>
+                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Elite Package Enquiry" class="btn btn-pricing-outline mt-auto">Get Started</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     VISION / CTA SECTION
+═══════════════════════════════════════════ -->
+<section id="vision" class="vision-section">
+    <div class="container text-center">
+        <span class="section-eyebrow">Our Vision</span>
+        <h2 class="vision-title mt-3">
+            We're not here to just manage pages.<br />
+            We're here to build sports brands,<br />
+            <span class="text-accent">culture, and communities</span> that people remember.
+        </h2>
+        <p class="vision-sub mt-4">
+            From grassroots football to professional sports branding — we create content that feels
+            authentic, engaging, and impactful.
+        </p>
+        <div class="mt-5 d-flex justify-content-center gap-3 flex-wrap">
+            <a href="mailto:cinellexmedia.co@gmail.com" class="btn btn-cta btn-lg-cta">
+                <i class="fas fa-envelope me-2"></i>Email Us
+            </a>
+            <a href="https://instagram.com/cinellexmedia" target="_blank" class="btn btn-ghost-cta btn-lg-cta">
+                <i class="fab fa-instagram me-2"></i>Follow Us
+            </a>
+        </div>
+    </div>
+</section>
