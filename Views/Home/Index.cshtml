@@ -404,7 +404,169 @@
         </p>
     </div>
 </section>
+<!-- ═══════════════════════════════════════════
+     GALLERY SECTION
+═══════════════════════════════════════════ -->
+<section id="gallery" class="gallery-section">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">Content Gallery</span>
+            <h2 class="section-heading mt-2">Our Work</h2>
+            <p class="section-sub">Matchday coverage, reels, brand creatives, and more.</p>
+        </div>
 
+        <!-- Filter Buttons -->
+        <div class="gallery-filters text-center mb-4">
+            <button class="gal-btn active" data-filter="all">All</button>
+            <button class="gal-btn" data-filter="matchday">Matchday</button>
+            <button class="gal-btn" data-filter="reels">Reels</button>
+            <button class="gal-btn" data-filter="branding">Branding</button>
+            <button class="gal-btn" data-filter="photography">Photography</button>
+        </div>
+
+        <!-- Slideshow -->
+        <div class="gallery-slideshow" id="gallerySlideshow">
+            <div class="gallery-track" id="galleryTrack">
+
+                <!-- Slide 1 — Matchday -->
+                <div class="gallery-slide" data-category="matchday">
+                    <div class="gallery-img-wrap">
+                        <!--
+                            REPLACE with your real image:
+                            <img src="~/images/gallery/matchday-1.jpg" alt="Matchday coverage" />
+                        -->
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-futbol"></i>
+                            <span>matchday-1.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Matchday</span>
+                            <p>Mega Sports · U14 League</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 — Reels -->
+                <div class="gallery-slide" data-category="reels">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-film"></i>
+                            <span>reel-creative-1.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Reels</span>
+                            <p>Thapa FC · Highlight Reel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 — Branding -->
+                <div class="gallery-slide" data-category="branding">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-palette"></i>
+                            <span>brand-design-1.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Branding</span>
+                            <p>Mega Sports · Identity Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 — Photography -->
+                <div class="gallery-slide" data-category="photography">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-camera"></i>
+                            <span>shoot-1.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Photography</span>
+                            <p>Thapa FC · Player Shoot</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 — Matchday -->
+                <div class="gallery-slide" data-category="matchday">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-futbol"></i>
+                            <span>matchday-2.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Matchday</span>
+                            <p>Thapa FC · TYL Coverage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 6 — Reels -->
+                <div class="gallery-slide" data-category="reels">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-film"></i>
+                            <span>reel-creative-2.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Reels</span>
+                            <p>Mega Sports · Goal Montage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 7 — Branding -->
+                <div class="gallery-slide" data-category="branding">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-palette"></i>
+                            <span>brand-design-2.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Branding</span>
+                            <p>Thapa FC · Social Templates</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 8 — Photography -->
+                <div class="gallery-slide" data-category="photography">
+                    <div class="gallery-img-wrap">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-camera"></i>
+                            <span>shoot-2.jpg</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <span class="gallery-tag">Photography</span>
+                            <p>Mega Sports · Team Photo</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /gallery-track -->
+            <!-- Prev / Next Arrows -->
+            <button class="gallery-arrow gallery-prev" id="galPrev" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="gallery-arrow gallery-next" id="galNext" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <!-- Dot indicators -->
+            <div class="gallery-dots" id="galleryDots"></div>
+        </div>
+
+        <!-- Auto-play toggle -->
+        <div class="text-center mt-4">
+            <button class="gal-autoplay-btn" id="galAutoplay">
+                <i class="fas fa-pause" id="galAutoIcon"></i>
+                <span id="galAutoText">Pause Autoplay</span>
+            </button>
+        </div>
+
+    </div>
+</section>
 
 <!-- ═══════════════════════════════════════════
      PRICING SECTION
@@ -483,6 +645,76 @@
             </div>
 
         </div>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="container">
+
+        <div class="section-header text-center mb-5">
+            <span class="section-eyebrow">Get In Touch</span>
+            <h2 class="section-heading mt-2">
+                Let's Build Your
+                <span class="text-accent">Sports Brand</span>
+            </h2>
+            <p class="section-sub">
+                Tell us about your club, academy, athlete profile, or project.
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <div class="row g-5 align-items-center">
+
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <h4>Why Contact Us?</h4>
+
+                        <div class="contact-point">
+                            <i class="fas fa-futbol"></i>
+                            <span>Sports-focused digital strategy</span>
+                        </div>
+
+                        <div class="contact-point">
+                            <i class="fas fa-camera"></i>
+                            <span>Creative content production</span>
+                        </div>
+
+                        <div class="contact-point">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Audience growth & engagement</span>
+                        </div>
+
+                        <div class="contact-point">
+                            <i class="fas fa-bullseye"></i>
+                            <span>Strong brand identity building</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <form class="contact-form">
+
+                        <input type="text"
+                               placeholder="Your Name">
+
+                        <input type="email"
+                               placeholder="Email Address">
+
+                        <input type="tel"
+                               placeholder="Phone Number">
+
+                        <textarea rows="5"
+                                  placeholder="Tell us about your project"></textarea>
+
+                        <button type="submit" class="btn btn-cta">
+                            Send Enquiry
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </section>
 
