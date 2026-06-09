@@ -1,6 +1,12 @@
 wwwroot\css\Home.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\Content Gallery\1.png
+wwwroot\images\Content Gallery\2.png
+wwwroot\images\Content Gallery\3.jpg
+wwwroot\images\Content Gallery\4.png
+wwwroot\images\Content Gallery\5.jpeg
+wwwroot\images\Content Gallery\6.png
 wwwroot\images\IMG_0251-removebg-preview (1).png
 wwwroot\images\logo.png
 wwwroot\js\site.js
@@ -125,5 +131,5 @@ C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstr
 C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\css\site.css
 C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\css\Home.css
+C:\Users\chava\source\repos\CINELLEXMEDIA\wwwroot\css\site.css

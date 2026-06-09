@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="image\" />
+    <Folder Include="wwwroot\images\Content Gallery\" />
   </ItemGroup>
 
   <ItemGroup>

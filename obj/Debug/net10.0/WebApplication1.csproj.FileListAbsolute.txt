@@ -320,7 +320,6 @@ C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\rjsmcshtml.dswa.cach
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\bundle\WebApplication1.styles.css
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
-C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-lt4qff98p5-lt4qff98p5.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\u3m5yo2x8f-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\8yqr3kw3fy-{0}-t1cqhe9u97-t1cqhe9u97.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\sloa8893dl-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -394,5 +393,6 @@ C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\refint\WebApplicatio
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.pdb
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.genruntimeconfig.cache
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\ref\WebApplication1.dll
-C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-y4de2ssg8x-y4de2ssg8x.gz
-C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-p16udwp5g2-p16udwp5g2.gz
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-19m11syvma-19m11syvma.gz
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-391i2ojq3r-391i2ojq3r.gz
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-qvstte2vv4-qvstte2vv4.gz

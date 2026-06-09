@@ -261,3 +261,38 @@ document.addEventListener('DOMContentLoaded', function () {
     startAuto();
 
 })();
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const modal = document.getElementById("galleryModal");
+    const modalImg = document.getElementById("galleryModalImg");
+    const closeBtn = document.querySelector(".gallery-close");
+
+        document.querySelectorAll(".gallery-image").forEach(img => {
+
+        img.style.cursor = "pointer";
+
+    img.addEventListener("click", function () {
+        modal.classList.add("show");
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+            });
+        });
+
+        closeBtn.addEventListener("click", () => {
+        modal.classList.remove("show");
+        });
+
+    modal.addEventListener("click", function (e) {
+            if (e.target === modal) {
+        modal.classList.remove("show");
+            }
+        });
+
+    document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+        modal.classList.remove("show");
+            }
+        });
+
+    });
