@@ -1,0 +1,55 @@
+.social-icons img {
+    transition: transform 0.2s;
+}
+
+    .social-icons img:hover {
+        transform: scale(1.2);
+    }
+
+    /* ==========================
+   GALLERY LIGHTBOX
+========================== */
+
+.gallery-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(0,0,0,.9);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery-modal.show {
+    display: flex;
+}
+
+.gallery-modal-img {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 12px;
+    object-fit: contain;
+    animation: zoomIn .3s ease;
+}
+
+.gallery-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
