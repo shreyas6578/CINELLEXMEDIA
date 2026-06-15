@@ -607,7 +607,8 @@
                         <li><i class="fas fa-check"></i> Monthly performance report</li>
                         <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
                     </ul>
-                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Starter Package Enquiry" class="btn btn-pricing-outline mt-auto">Get Started</a>
+                    <a href="#contact" class="btn btn-pricing-outline mt-auto"
+                       onclick="selectPackage('Starter Package')">Get Started</a>
                 </div>
             </div>
 
@@ -629,7 +630,8 @@
                         <li><i class="fas fa-check"></i> Trend & engagement strategy planning</li>
                         <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
                     </ul>
-                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Growth Package Enquiry" class="btn btn-pricing-filled mt-auto">Get Started</a>
+                    <a href="#contact" class="btn btn-pricing-filled mt-auto"
+                       onclick="selectPackage('Growth Package')">Get Started</a>
                 </div>
             </div>
 
@@ -651,7 +653,8 @@
                         <li><i class="fas fa-check"></i> Content calendar for structured posting</li>
                         <li><i class="fas fa-check"></i> 1 complimentary shoot (1 hr)</li>
                     </ul>
-                    <a href="mailto:cinellexmedia.co@gmail.com?subject=Elite Package Enquiry" class="btn btn-pricing-outline mt-auto">Get Started</a>
+                    <a href="#contact" class="btn btn-pricing-outline mt-auto"
+                       onclick="selectPackage('Elite Package')">Get Started</a>
                 </div>
             </div>
 
@@ -702,19 +705,51 @@
                 </div>
 
                 <div class="col-lg-7">
-                    <form class="contact-form">
+                    <form class="contact-form" asp-action="Userform" method="post" asp-controller="Home">
 
                         <input type="text"
-                               placeholder="Your Name">
+                               placeholder="Your Name" name="Name">
 
                         <input type="email"
-                               placeholder="Email Address">
-
+                               placeholder="Email Address" name="email">
+             
                         <input type="tel"
-                               placeholder="Phone Number">
+                               placeholder="Phone Number" name="number">
 
-                        <textarea rows="5"
+                        <textarea rows="5" name="message"
                                   placeholder="Tell us about your project"></textarea>
+
+                        <!-- Package Selection -->
+                        <div class="package-select mt-3">
+                            <p class="package-label">Select a Package</p>
+                            <div class="package-options">
+
+                                <label class="package-radio">
+                                    <input type="radio" name="package" value="Starter Package">
+                                    <span class="package-radio-box">
+                                        <i class="fas fa-check-circle me-2"></i>Starter Package
+                                        <small>₹14,999/mo</small>
+                                    </span>
+                                </label>
+
+                                <label class="package-radio">
+                                    <input type="radio" name="package" value="Growth Package">
+                                    <span class="package-radio-box">
+                                        <i class="fas fa-check-circle me-2"></i>Growth Package
+                                        <small>₹19,999/mo</small>
+                                    </span>
+                                </label>
+
+                                <label class="package-radio">
+                                    <input type="radio" name="package" value="Elite Package">
+                                    <span class="package-radio-box">
+                                        <i class="fas fa-check-circle me-2"></i>Elite Package
+                                        <small>₹29,999/mo</small>
+                                    </span>
+                                </label>
+
+                            </div>
+                        </div>
 
                         <button type="submit" class="btn btn-cta">
                             Send Enquiry

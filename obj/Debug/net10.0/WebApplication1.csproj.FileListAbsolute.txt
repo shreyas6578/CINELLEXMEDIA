@@ -393,7 +393,7 @@ C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.pdb
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.genruntimeconfig.cache
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\ref\WebApplication1.dll
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-19m11syvma-19m11syvma.gz
-C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-391i2ojq3r-391i2ojq3r.gz
-C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-qvstte2vv4-qvstte2vv4.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-os9d0lihvz-os9d0lihvz.gz
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-mera1ydnjx-mera1ydnjx.gz
