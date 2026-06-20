@@ -40,18 +40,17 @@ namespace WebApplication1.Controllers
             String num = number;
             Console.WriteLine(Name+""+Email+""+text+""+num);
             string whatsappMessage =
-                $"Hi Uttkarsh,\n" +
-                $"My name is {Name}, and I am interested in the {package} package offered by Cinellex Media.\n" +
-                $"{Message}\n" +
-                $"You can reach me using the contact details below:\n" +
-                $"Phone: {number}\n" +
-                $"Email: {email}\n" +
-                $"I would appreciate the opportunity to discuss this further and learn more about your services.\n" +
-                $"Thank you, and I look forward to your response.\n" +
+                $"Hi Uttkarsh,\n\n" +
+                $"My name is {Name}, and I came across Cinellex Media's {package} package — I'd love to know more about it.\n\n" +
+                $"{Message?.Trim()}\n\n" +
+                $"Feel free to reach me at:\n" +
+                $" {number}\n" +
+                $" {email}\n\n" +
+                $"Looking forward to hearing from you!\n\n" +
                 $"Best regards,\n{Name}";
 
             string encodedMessage = Uri.EscapeDataString(whatsappMessage);
-            string whatsappNumber = "917208666131";
+            string whatsappNumber = "919987144526";
             string whatsappUrl = $"https://wa.me/{whatsappNumber}?text={encodedMessage}";
 
             return Redirect(whatsappUrl);

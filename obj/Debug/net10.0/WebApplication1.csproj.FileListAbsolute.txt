@@ -220,7 +220,6 @@ C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\rjsmcshtml.dswa.ca
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\bundle\WebApplication1.styles.css
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-lt4qff98p5-lt4qff98p5.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\u3m5yo2x8f-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\8yqr3kw3fy-{0}-t1cqhe9u97-t1cqhe9u97.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\sloa8893dl-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -294,8 +293,6 @@ C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\refint\WebApplicat
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.pdb
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\WebApplication1.genruntimeconfig.cache
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\ref\WebApplication1.dll
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-8c8ehuw6b6-8c8ehuw6b6.gz
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-7df0ci6sns-7df0ci6sns.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\chava\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\appsettings.json
 C:\Users\chava\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\WebApplication1.staticwebassets.runtime.json
@@ -397,3 +394,7 @@ C:\Users\chava\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-os9d0lihvz-os9d0lihvz.gz
 C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-mera1ydnjx-mera1ydnjx.gz
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-19m11syvma-19m11syvma.gz
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-os9d0lihvz-os9d0lihvz.gz
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-mera1ydnjx-mera1ydnjx.gz
