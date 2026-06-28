@@ -296,3 +296,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
     });
+
+function selectPackage(packageName) {
+    setTimeout(function () {
+        const radios = document.querySelectorAll('input[name="package"]');
+        radios.forEach(function (radio) {
+            if (radio.value === packageName) {
+                radio.checked = true;
+                // trigger visual highlight on the label
+                radio.dispatchEvent(new Event('change'));
+            }
+        });
+    }, 400); // slight delay to let scroll finish
+}
