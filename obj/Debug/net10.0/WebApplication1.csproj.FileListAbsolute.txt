@@ -398,3 +398,4 @@ C:\Users\shreyas\source\repos\CINELLEXMEDIA\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\nxn9rlsrb0-{0}-19m11syvma-19m11syvma.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\556miamfr6-{0}-os9d0lihvz-os9d0lihvz.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\w3u7ibosd4-{0}-mera1ydnjx-mera1ydnjx.gz
+C:\Users\chava\source\repos\CINELLEXMEDIA\obj\Debug\net10.0\compressed\k95hw5hp2f-{0}-byt3eiwvwo-byt3eiwvwo.gz
