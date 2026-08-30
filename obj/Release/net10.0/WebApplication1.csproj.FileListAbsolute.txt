@@ -199,6 +199,6 @@ C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\refint\WebApplic
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\WebApplication1.pdb
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\WebApplication1.genruntimeconfig.cache
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\ref\WebApplication1.dll
-C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\compressed\556miamfr6-{0}-qejrxpo191-qejrxpo191.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\compressed\zowxpmcj2o-{0}-i1u9aq6620-i1u9aq6620.gz
 C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\compressed\6n6rmsx4x9-{0}-tcbttsocik-tcbttsocik.gz
+C:\Users\shreyas\source\repos\CINELLEXMEDIA\obj\Release\net10.0\compressed\556miamfr6-{0}-viez6g2lku-viez6g2lku.gz

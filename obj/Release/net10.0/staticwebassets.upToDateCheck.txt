@@ -1,12 +1,12 @@
 wwwroot\css\Home.css
 wwwroot\favicon.ico
-wwwroot\images\About.png
-wwwroot\images\Content Gallery\1.png
-wwwroot\images\Content Gallery\2.png
+wwwroot\images\About.jpeg
+wwwroot\images\Content Gallery\6.jpg
+wwwroot\images\Content Gallery\5.jpg
+wwwroot\images\Content Gallery\4.jpg
 wwwroot\images\Content Gallery\3.jpg
-wwwroot\images\Content Gallery\4.png
-wwwroot\images\Content Gallery\5.jpeg
-wwwroot\images\Content Gallery\6.png
+wwwroot\images\Content Gallery\2.jpg
+wwwroot\images\Content Gallery\1.jpg
 wwwroot\images\fc(1).png
 wwwroot\images\IMG_0251-removebg-preview (1).png
 wwwroot\images\mega_sports_logo__1_-removebg-preview (2).png
@@ -14,7 +14,6 @@ wwwroot\images\photo\1.jpeg
 wwwroot\images\photo\2.jpeg
 wwwroot\images\photo\3.jpeg
 wwwroot\images\photo\4.jpeg
-wwwroot\images\apple-touch-icon.png
 wwwroot\css\site.css
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -78,13 +77,7 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\images\Screenshot 2026-06-27 151442.jpg
-wwwroot\images\favicon-16x16.png
-wwwroot\images\favicon-180x180.png
-wwwroot\images\favicon-192x192.png
-wwwroot\images\favicon-32x32.png
-wwwroot\images\favicon-48x48.png
-wwwroot\images\favicon-512x512.png
-wwwroot\images\favicon-96x96.png
+wwwroot\images\16x16.jpg-removebg-preview.png
 wwwroot\images\favicon.svg
 wwwroot\images\img.jpg
 wwwroot\images\site.webmanifest

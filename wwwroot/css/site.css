@@ -1041,6 +1041,8 @@ strong {
         .pricing-card-featured:hover {
             transform: translateY(-6px);
         }
+
+
 }
 
 @media (max-width: 768px) {
@@ -1573,6 +1575,12 @@ strong {
     .contact-line {
         display: none;
     }
+    .about-img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
 }
 
 .contact-section {
@@ -1695,6 +1703,7 @@ strong {
     .navbar-brand img {
         height: 36px;
     }
+
 }
 
 @media (max-width: 480px) {

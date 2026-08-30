@@ -4,22 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Cinellex Media</title>
+
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- Favicon – all screen sizes & devices -->
-    <link rel="icon" type="image/svg+xml" href="~/images/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="16x16" href="~/images/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="~/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="48x48" href="~/imgaes/favicon-48x48.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="~/images/favicon-96x96.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="~/images/apple-touch-icon.png" />
-    <link rel="manifest" href="~/site.webmanifest" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="~/images/16x16.jpg-removebg-preview.png" />
+   <!-- <link rel="manifest" href="~/site.webmanifest" / > -->
     <meta name="theme-color" content="#21D192" />
-    <meta name="description" content="Cinellex Media is a sports-focused creative agency helping clubs, academies, athletes, and sports brands build a strong digital presence. Crafted for Growth." />
-    <meta name="keywords" content="sports creative agency, social media management, sports branding, Cinellex Media" />
 
     <!-- SEO -->
     <meta name="description" content="Cinellex Media is a sports-focused creative agency helping clubs, academies, athletes, and sports brands build a strong digital presence. Crafted for Growth." />
@@ -28,7 +27,7 @@
     <!-- Open Graph -->
     <meta property="og:title" content="Cinellex Media – Crafted for Growth" />
     <meta property="og:description" content="Sports-focused creative agency helping clubs, academies, athletes and sports brands grow digitally." />
-    <meta property="og:image" content="https://cinellexmedia.in/images/favicon-96x96.png" />
+    <meta property="og:image" content="https://cinellexmedia.in/images/16x16.jpg-removebg-preview.png" />
     <meta property="og:url" content="https://cinellexmedia.in" />
     <meta property="og:type" content="website" />
 </head>
@@ -91,7 +90,7 @@
         <div class="container py-5">
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <img src="~/images/IMG_0251-removebg-preview (1).png" alt="Cinellex Media" style="height:200px;" class="mb-3" />
+                    <img src="~/images/IMG_0251-removebg-preview (1).png" alt="Cinellex Media" style="height:200px;" class="mb-3" loading="lazy" />
                     <p class="footer-tagline">Crafted for Growth.</p>
                     <p class="footer-sub">Sports-focused creative agency helping clubs, academies, athletes, and sports brands build a strong digital presence.</p>
                     <p class="footer-est">ESTD 1 January 2026</p>
@@ -132,7 +131,7 @@
             <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
                 <span>© 2026 Cinellex Media. All rights reserved.</span>
                 <span>Founded by <strong>Uttkarsh Chavan</strong> & <strong>Sunny Nikhade</strong></span>
-                <span><strong>Developer: Shreyas Chavare</strong></span>
+                <span>Developed by <strong>Shreyas Chavare</strong></span>
             </div>
         </div>
     </footer>
